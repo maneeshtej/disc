@@ -1,4 +1,4 @@
-1) #include<stdio.h>
+#include<stdio.h>
 #include<time.h>
 
 void bfs(int a[10][10], int n, int source) {
