@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<string.h>
-#include<conio.h>
 #define MAX 500
 
 int t[MAX];
@@ -34,14 +33,17 @@ int horspool(char src[], char p[]) {
     return -1;
 }
 
-void main() {
+int main() {
     char src[100], p[100];
     int pos;
     
     printf("Enter the text in which pattern is to be searched:\n");
-    gets(src);  // gets is unsafe, but as per the instruction, we will not change it
+    fgets(src, sizeof(src), stdin);  // Use fgets instead of gets for safety
+    src[strcspn(src, "\n")] = 0;  // Remove trailing newline from fgets input
+
     printf("Enter the pattern to be searched:\n");
-    gets(p);
+    fgets(p, sizeof(p), stdin);  // Use fgets instead of gets for safety
+    p[strcspn(p, "\n")] = 0;  // Remove trailing newline from fgets input
     
     shifttable(p);
     pos = horspool(src, p);
@@ -51,8 +53,9 @@ void main() {
     else
         printf("\nThe pattern was not found in the given text");
     
-    getch();  // For pausing the output on screen
+    return 0;
 }
+
 
 INPUT:
 Enter the text in which pattern is to be searched:
