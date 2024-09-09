@@ -60,11 +60,11 @@ int main() {
     return 0;
 }
 
-INPUT:
-Enter the number of vertices: 
-4
-Enter the cost matrix:
-0 3 999 7
-8 0 2 999
-5 999 0 1
-2 999 999 0
+// INPUT:
+// Enter the number of vertices: 
+// 4
+// Enter the cost matrix:
+// 0 3 999 7
+// 8 0 2 999
+// 5 999 0 1
+// 2 999 999 0
