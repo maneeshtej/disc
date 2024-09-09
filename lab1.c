@@ -57,12 +57,12 @@ int main() {
     return 0;
 }
 
-INPUT: 
+// INPUT: 
 
-Enter the number of cities (nodes): 4
+// Enter the number of cities (nodes): 4
 
-Enter the adjacency matrix:
-0 1 0 1
-0 0 1 0
-1 0 0 0
-0 1 0 0
+// Enter the adjacency matrix:
+// 0 1 0 1
+// 0 0 1 0
+// 1 0 0 0
+// 0 1 0 0
