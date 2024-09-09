@@ -60,17 +60,17 @@ int main() {
 
     return 0;
 }
-INPUT: 
-Enter the number of USNs: 10
+// INPUT: 
+// Enter the number of USNs: 10
 
-USNs (randomly generated):
-1234
-5678
-9101
-2345
-6789
-3456
-7890
-4567
-8901
-12345
+// USNs (randomly generated):
+// 1234
+// 5678
+// 9101
+// 2345
+// 6789
+// 3456
+// 7890
+// 4567
+// 8901
+// 12345
