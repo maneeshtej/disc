@@ -56,10 +56,10 @@ int main() {
     return 0;
 }
 
-INPUT:
-Enter the number of elements:
-5
-Enter the elements in ascending order:
-1 2 3 4 5
-Enter the required sum:
-6
+// INPUT:
+// Enter the number of elements:
+// 5
+// Enter the elements in ascending order:
+// 1 2 3 4 5
+// Enter the required sum:
+// 6
