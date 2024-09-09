@@ -67,12 +67,12 @@ int main() {
     return 0;
 }
 
-INPUT:
-Enter the number of resumes: 5
+// INPUT:
+// Enter the number of resumes: 5
 
-Resumes (randomly generated):
-65
-23
-87
-45
-78
+// Resumes (randomly generated):
+// 65
+// 23
+// 87
+// 45
+// 78
