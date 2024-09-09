@@ -57,8 +57,8 @@ int main() {
 }
 
 
-INPUT:
-Enter the text in which pattern is to be searched:
-abcababcabca
-Enter the pattern to be searched:
-abca
+// INPUT:
+// Enter the text in which pattern is to be searched:
+// abcababcabca
+// Enter the pattern to be searched:
+// abca
