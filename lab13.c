@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+#include <stdlib.h> // Use stdlib.h for the abs() function
 
 #define FALSE 0
 #define TRUE 1
@@ -10,6 +10,7 @@ int x[20]; // Array to store the positions of queens
 int place(int k, int i) {
     int j;
     for (j = 1; j < k; j++) {
+        // Check if queens are in the same column or diagonals
         if ((x[j] == i) || (abs(x[j] - i) == abs(j - k))) {
             return FALSE;
         }
@@ -39,11 +40,13 @@ int main() {
     int n;
     printf("\nEnter the number of queens: ");
     scanf("%d", &n);
+
+    if (n <= 0 || n > 20) {
+        printf("Invalid number of queens. Please enter a number between 1 and 20.\n");
+        return 1;
+    }
+
     printf("\nThe solution to the N Queens problem is:\n");
     nqueens(1, n); // Start the process with the first queen
     return 0;
 }
-
-INPUT:
-Enter the number of queens: 
-4
