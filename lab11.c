@@ -39,8 +39,8 @@ void kruskal(int n, edge e[], int m) {
         }
     }
 
-    // Initialize parent array
-    for (i = 0; i < n; i++) {
+    // Initialize parent array for 1-based indexing
+    for (i = 1; i <= n; i++) {
         parent[i] = i;
     }
 
@@ -105,14 +105,15 @@ int main() {
 
     return 0;
 }
-INPUT:
-Enter the number of vertices: 
-4
-Enter the number of edges:
-5
-Enter the edge list (u v cost):
-1 2 1
-1 3 4
-2 3 2
-3 4 3
-2 4 5
+
+// INPUT:
+// Enter the number of vertices: 
+// 4
+// Enter the number of edges:
+// 5
+// Enter the edge list (u v cost):
+// 1 2 1
+// 1 3 4
+// 2 3 2
+// 3 4 3
+// 2 4 5
