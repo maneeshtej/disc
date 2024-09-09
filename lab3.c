@@ -63,21 +63,21 @@ int main() {
 
     return 0;
 }
-INPUT: 
-Enter the number of products: 10
+// INPUT: 
+// Enter the number of products: 10
 
-Product ID: 35
-Product ID: 20
-Product ID: 85
-Product ID: 55
-Product ID: 76
-Product ID: 64
-Product ID: 25
-Product ID: 92
-Product ID: 10
-Product ID: 45
+// Product ID: 35
+// Product ID: 20
+// Product ID: 85
+// Product ID: 55
+// Product ID: 76
+// Product ID: 64
+// Product ID: 25
+// Product ID: 92
+// Product ID: 10
+// Product ID: 45
 
-Sorted Product ID List:
-10 20 25 35 45 55 64 76 85 92 
+// Sorted Product ID List:
+// 10 20 25 35 45 55 64 76 85 92 
 
-Enter the Product ID to be searched: 45
+// Enter the Product ID to be searched: 45
