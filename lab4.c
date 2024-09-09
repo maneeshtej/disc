@@ -55,12 +55,12 @@ int main() {
     return 0;
 }
 
-INPUT: 
-Enter the number of phone numbers: 5
+// INPUT: 
+// Enter the number of phone numbers: 5
 
-Phone Numbers:
-123456789
-987654321
-456789123
-654321987
-789123456
+// Phone Numbers:
+// 123456789
+// 987654321
+// 456789123
+// 654321987
+// 789123456
