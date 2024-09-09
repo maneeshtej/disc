@@ -75,12 +75,12 @@ int main() {
 
     return 0;
 }
-INPUT:
-Enter the number of items: 
-4
-Enter the weights of 4 items:
-2 3 4 5
-Enter the values of 4 items:
-3 4 5 6
-Enter the capacity of the basket:
-5
+// INPUT:
+// Enter the number of items: 
+// 4
+// Enter the weights of 4 items:
+// 2 3 4 5
+// Enter the values of 4 items:
+// 3 4 5 6
+// Enter the capacity of the basket:
+// 5
