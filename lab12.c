@@ -77,14 +77,14 @@ int main() {
     return 0;
 }
 
-INPUT:
-Enter number of vertices: 
-5
-Enter the cost adjacency matrix:
-0 6 999 1 999
-6 0 5 2 2
-999 5 0 2 5
-1 2 2 0 1
-999 2 5 1 0
-Enter the source vertex: 
-1
+// INPUT:
+// Enter number of vertices: 
+// 5
+// Enter the cost adjacency matrix:
+// 0 6 999 1 999
+// 6 0 5 2 2
+// 999 5 0 2 5
+// 1 2 2 0 1
+// 999 2 5 1 0
+// Enter the source vertex: 
+// 1
