@@ -86,17 +86,17 @@ int main() {
     return 0;
 }
 
-INPUT:
-Enter the number of employee records: 10
+// INPUT:
+// Enter the number of employee records: 10
 
-Employee IDs (randomly generated):
-82930
-98435
-56432
-12345
-45678
-23456
-78901
-34567
-56789
-45678
+// Employee IDs (randomly generated):
+// 82930
+// 98435
+// 56432
+// 12345
+// 45678
+// 23456
+// 78901
+// 34567
+// 56789
+// 45678
